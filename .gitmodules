@@ -1,0 +1,3 @@
+[submodule "simple-onethink"]
+	path = simple-onethink
+	url = https://github.com/ximenpo/simple-onethink
