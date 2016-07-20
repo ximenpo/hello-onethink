@@ -1,11 +1,9 @@
 <?php
 
-$app_root    = dirname(realpath('.'));
+define('APP_PATH',      __DIR__ . '/../simple-onethink/wwwroot/Application/' );
+define('RUNTIME_PATH',  __DIR__ . '/../Runtime/' );
 
-define('APP_PATH',      $app_root . '/simple-onethink/wwwroot/Application/' );
-define('RUNTIME_PATH',  $app_root . '/Runtime/' );
-
-chdir($app_root . '/simple-onethink/wwwroot');
+chdir(__DIR__ . '/../simple-onethink/wwwroot');
 #################################################################
 
 define('APP_DEBUG', true );
