@@ -1,6 +1,6 @@
 #! /bin/bash
 
-CURR_DIR=$(dirname $0)
+CURR_DIR=$(cd `dirname $0`; pwd)
 SRC_DIR=${CURR_DIR}/../simple-onethink/wwwroot
 TAR_DIR=${CURR_DIR}/../web
 
